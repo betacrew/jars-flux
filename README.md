@@ -11,4 +11,4 @@
 
 
 ---
- *Maintained by [BetaCrew](www.betacrew.io)*
+ *Maintained by [BetaCrew](https://www.betacrew.io)*
