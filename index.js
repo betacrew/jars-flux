@@ -1,7 +1,2 @@
-import useFlexCleanup from './libs/FlexCleanup'
-import store from './libs/store'
-
-module.exports = {
-    useFlexCleanup,
-    store
-}
+export {default as useFlexCleanup} from './libs/FlexCleanup'
+export {default as store} from './libs/store'

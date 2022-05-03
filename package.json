@@ -1,6 +1,6 @@
 {
-  "name": "jars-flux",
-  "version": "1.0.3",
+  "name": "@betacrew/jars-flux",
+  "version": "1.0.5",
   "description": "Enable flux pattern for React and React Native apps",
   "main": "index.js",
   "scripts": {
