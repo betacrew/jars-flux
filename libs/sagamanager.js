@@ -1,9 +1,9 @@
 export default function createSagaManager(sagaMiddleware) {
-    let sagas = [];
+    let sagas = {};
     let emitSagaAdditionListener = null;
 
     return {
-        addSaga: function(name, saga) {
+        addSaga: function (name, saga) {
             if (sagas[name]) {
                 return;
             }
@@ -12,7 +12,10 @@ export default function createSagaManager(sagaMiddleware) {
                 emitSagaAdditionListener(saga);
             }
         },
-        setAddSagaListener: function(listener) {
+        removeSaga: function (name) {
+
+        },
+        setAddSagaListener: function (listener) {
             emitSagaAdditionListener = listener;
         }
     }
